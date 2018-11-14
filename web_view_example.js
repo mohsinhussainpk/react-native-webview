@@ -5,8 +5,7 @@ const WebViewExample = () => {
     <View style={styles.container}>
       <WebView
         source={{
-          uri:
-            "https://www.google.com/?gws_rd=cr,ssl&ei=SICcV9_EFqqk6ASA3ZaABA#q=tutorialspoint"
+          uri: "https://www.olx.com.pk"
         }}
       />
     </View>
@@ -16,6 +15,6 @@ export default WebViewExample;
 
 const styles = StyleSheet.create({
   container: {
-    height: 350
+    height: 700
   }
 });
